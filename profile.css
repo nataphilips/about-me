@@ -1,0 +1,35 @@
+#app {
+  height: 100vh;
+  width: 100vw;
+}
+#menu {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  font-size: 28px;
+  padding: 10px 0px;
+}
+
+#about-me {
+  border: 1px solid black;
+  padding: 20px 50px;
+  font-size: 24px;
+}
+
+#links {
+  border: 1px solid black;
+  padding: 20px 50px;
+  font-size: 24px;
+}
+
+#projects {
+  border: 1px solid black;
+  padding: 20px 50px;
+  font-size: 24px;
+}
+
+.button-link {
+  height: 100px;
+  width: 100px;
+}
