@@ -100,3 +100,34 @@ a {
   align-items: center;
   justify-content: space-around;
 }
+
+#projects-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-view {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.demo-link {
+  margin-top: 20px;
+}
+
+#calculator-img {
+  width: 200px;
+}
