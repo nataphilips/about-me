@@ -40,7 +40,7 @@ h1 {
 #links {
   padding: 20px 50px;
   font-size: 24px;
-  background-color: #E5989B;
+  background-color: #6D6875;
 }
 
 #projects {
@@ -72,7 +72,10 @@ h1 {
 }
 
 #profile-photo {
-  background-image: url("https://s.gravatar.com/avatar/ab01dee3f78332e94d4a0ab86af5e785?s=200");
-  height: 200px;
-  width: 200px;
+  background-image: url("https://s.gravatar.com/avatar/ab01dee3f78332e94d4a0ab86af5e785?s=250");
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: 1px solid #6D6875;
+  box-shadow: 0px 0px 30px #6D6875;
 }
