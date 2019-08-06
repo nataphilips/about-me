@@ -104,12 +104,15 @@ a {
 #projects-container {
   display: flex;
   flex-direction: column;
+  font-size: 20px;
 }
 
 .project-row {
   display: flex;
   flex-direction: row;
-  margin-bottom: 50px;
+  margin: 0 40px 40px 0;
+  padding-bottom: 40px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1)
 }
 
 .project-view {
@@ -118,30 +121,45 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-right: 50px;
 }
 
 .project-description {
   flex: 1;
   display: flex;
   flex-direction: column;
+  font-size: 18px;
 }
 
 .demo-link {
   margin-top: 20px;
 }
 
+.project-links {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.project-links a {
+  margin: 0 10px;
+}
+
+.project-links a:hover {
+  opacity: 0.5;
+}
+
 #calculator-img {
-  width: 300px;
+  width: 150px;
 }
 
 #superhero-img {
-  width: 500px;
+  width: 400px;
 }
 
 #game-of-life-img {
-  width: 500px;
+  width: 400px;
 }
 
 #color-game-img {
-  width: 500px;
+  width: 400px;
 }
