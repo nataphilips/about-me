@@ -131,9 +131,17 @@ a {
 }
 
 #calculator-img {
-  width: 200px;
+  width: 300px;
 }
 
 #superhero-img {
+  width: 500px;
+}
+
+#game-of-life-img {
+  width: 500px;
+}
+
+#color-game-img {
   width: 500px;
 }
